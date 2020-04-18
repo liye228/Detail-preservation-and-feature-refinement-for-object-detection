@@ -1,7 +1,7 @@
 # Detail preservation and feature refinement for object detection
 
-By ZHC, LY, CLR, YZW
-SYSU ZHC LAB
+By ZHC, LY, CLR, YZW. 
+(SYSU ZHC LAB)
 
 ### Introduction
 For more details, please refer to our https://www.sciencedirect.com/science/article/pii/S0925231219308185?via%3Dihub. 

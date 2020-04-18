@@ -1,10 +1,10 @@
 # Detail preservation and feature refinement for object detection
 
-By ZHC, LY, CLR, YZW. 
+By ZHC, LY, ZT, CLR, YZW. 
 (SYSU ZHC LAB)
 
 ### Introduction
-For more details, please refer to our https://www.sciencedirect.com/science/article/pii/S0925231219308185?via%3Dihub. 
+For more details, please refer to our paper https://www.sciencedirect.com/science/article/pii/S0925231219308185?via%3Dihub. 
 
 
 &nbsp;
@@ -23,7 +23,7 @@ For more details, please refer to our https://www.sciencedirect.com/science/arti
 5. [Models](#models)
 
 ## Installation
-- Follow RFBnet
+- Follow RFBnet https://github.com/ruinmessi/RFBNet
 - a huge thank to them.
   * Note: We currently only support Python 3+.
 ## Datasets
@@ -56,7 +56,9 @@ $COCO/images/val2014/
 *UPDATE*: The current COCO dataset has released new *train2017* and *val2017* sets which are just new splits of the same image sets. 
 
 ## Training
-- To train MSSD(You can change datasets and models by yourself)
+- To train SDD(You can change datasets and models by yourself) 
+- Please download the weights from 链接：https://pan.baidu.com/s/1QrEgRvc6lbqFQntIXCRPCg 
+提取码：pgjx 
 ```Shell
 python train_MSSD512VOC.py
 ```
@@ -68,14 +70,14 @@ python test_RFB.py
 
 ## Models
 
-* 07+12 [MSSD512]
-### Citing RFB Net
+* 07+12 [SDD512]
+### Citing SDD
 
 
-    @article{liu2017RFB,
-        title = {Receptive Field Block Net for Accurate and Fast Object Detection},
-        author = {Songtao Liu, Di Huang and Yunhong Wang},
-        booktitle = {arxiv preprint arXiv:1711.07767},
-        year = {2017}
+    @article{li2019SDD,
+        title = {Detail preservation and feature refinement for object detection},
+        author = {Ye Li, Huicheng Zheng, Zhiwei Yan, Lvran Chen},
+        booktitle = {Neurocomputing2019},
+        year = {2019}
     }
 

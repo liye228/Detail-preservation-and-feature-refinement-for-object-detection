@@ -57,8 +57,8 @@ $COCO/images/val2014/
 
 ## Training
 - To train SDD(You can change datasets and models by yourself) 
-- Please download the weights from 链接：https://pan.baidu.com/s/1QrEgRvc6lbqFQntIXCRPCg 
-提取码：pgjx 
+- Please download the weights from baiduyun：https://pan.baidu.com/s/1QrEgRvc6lbqFQntIXCRPCg 
+codeforbaiduyun：pgjx 
 ```Shell
 python train_MSSD512VOC.py
 ```
